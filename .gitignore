@@ -33,7 +33,6 @@ datasets/
 runs/
 **/runs/
 *.pt
-*.onnx
 *.engine
 
 # Allow only your final model weights to be committed
