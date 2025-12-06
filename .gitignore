@@ -1,0 +1,47 @@
+# --------------------------
+# PYTHON / GENERAL
+# --------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# VIRTUAL ENVIRONMENTS
+# --------------------------
+.venv/
+venv/
+recycling-env/
+
+# --------------------------
+# DATASETS & LARGE FILES
+# (You do NOT want these in GitHub)
+# --------------------------
+WaRP Dataset/
+Dataset.zip
+data/
+datasets/
+
+# --------------------------
+# YOLO / ULTRALYTICS OUTPUTS
+# --------------------------
+runs/
+**/runs/
+*.pt
+*.onnx
+*.engine
+
+# Allow only your final model weights to be committed
+!models/warp_yolov8m_best.pt
+
+# --------------------------
+# IDE / EDITOR FILES
+# --------------------------
+.vscode/
+.idea/
+*.code-workspace*
