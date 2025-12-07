@@ -9,7 +9,7 @@ import onnxruntime as ort
 # Config
 # -----------------------------
 # ### CHANGED: point this to your NEW nano ONNX file
-MODEL_PATH = "/home/kyle/Recycling-Detection/models/warp_yolov8n_416.onnx"
+MODEL_PATH = "/home/kyle/Recycling-Detection/models/best.onnx"
 
 # ### CHANGED: model input size (you trained/exported at 416x416)
 MODEL_W = 416

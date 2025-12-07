@@ -17,6 +17,10 @@ Thumbs.db
 .venv/
 venv/
 recycling-env/
+oak-env/
+.env/
+*.pyc
+__pycache__/
 
 # --------------------------
 # DATASETS & LARGE FILES
